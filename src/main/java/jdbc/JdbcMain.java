@@ -1,10 +1,9 @@
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.UncheckedIOException;
+package jdbc;
+
 import java.sql.*;
 import java.util.Properties;
 
-import static util.UtilForJdbcClasses.loadProperties;
+import static jdbc.util.UtilForJdbcClasses.loadProperties;
 
 public class JdbcMain {
     public static void main(String[] args) throws SQLException {

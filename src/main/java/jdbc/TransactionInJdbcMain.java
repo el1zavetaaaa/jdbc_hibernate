@@ -1,10 +1,13 @@
+package jdbc;
+
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Properties;
 
-import static util.UtilForJdbcClasses.*;
+import static jdbc.util.UtilForJdbcClasses.*;
 
 public class TransactionInJdbcMain {
     public static void main(String[] args) throws SQLException {

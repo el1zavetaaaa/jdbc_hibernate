@@ -1,7 +1,9 @@
+package jdbc;
+
 import java.sql.*;
 import java.util.Properties;
 
-import static util.UtilForJdbcClasses.loadProperties;
+import static jdbc.util.UtilForJdbcClasses.loadProperties;
 
 
 public class DataBaseMetaDataMainJdbc {

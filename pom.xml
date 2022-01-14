@@ -24,6 +24,7 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <postgresql.jdbc.driver>42.3.1</postgresql.jdbc.driver>
+        <hibernate.version>5.4.14.Final</hibernate.version>
     </properties>
 
     <dependencies>
@@ -32,6 +33,11 @@
             <artifactId>postgresql</artifactId>
             <version>${postgresql.jdbc.driver}</version>
             <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>${hibernate.version}</version>
         </dependency>
     </dependencies>
 
